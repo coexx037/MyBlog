@@ -29,8 +29,6 @@
             <li><a href="{{ route('tags.index') }}">Tags</a></li>
             <li><a href="/logout">Logout</a></li>
 
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
           </ul>
         </li>
 
