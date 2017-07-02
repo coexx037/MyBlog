@@ -6,7 +6,7 @@
 
     <div class-"row">
         <div class="col-md-8">
-            <h1>Categories</h1>
+            <h1>Tags</h1>
             <table class="table">
                 <thead>
                     <tr>
@@ -24,7 +24,7 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class="col-md-3">
             <div class="well">
                     <form method="POST" action="{{ route('tags.store') }}">
@@ -40,6 +40,6 @@
                     </form>
             </div>
         </div>
-    </div>    
+    </div>
 
 @endsection
