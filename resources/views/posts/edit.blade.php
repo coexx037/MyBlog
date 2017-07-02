@@ -4,6 +4,9 @@
 
 <link rel="stylesheet" type="text/css" href="css/select2.min.css">
 
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+
+<script>tinymce.init({ selector:'textarea', plugins: 'link' });</script>
 
 @section('content')
 
@@ -12,7 +15,8 @@
     <form method="POST" action="{{ route('posts.update', $post->id) }}" enctype="multipart/form-data">
         <div class="form-group">
             <label for="title">Title:</label>
-            <textarea type="text" class="form-control input-lg" id="title" name="title" rows="1" style="resize:none;">{{ $post->title }}</textarea>
+            <input id="title" name="title" class="form-control" required maxlength="255" value="{{ $post->title }}">
+
         </div>
         <div class="form-group">
           <label name="category_id">Category:</label>
@@ -37,7 +41,8 @@
 
         <div class="form-group">
             <label for="slug">Url:</label>
-            <textarea type="text" class="form-control input-lg" id="slug" name="slug" rows="1">{{ $post->slug }}</textarea>
+            <input id="slug" name="slug" class="form-control" required minlength="5" maxlength="255" value="{{ $post->slug }}">
+            
         </div>
         <div class="form-group">
             <label for="body">Body:</label>
