@@ -1,4 +1,3 @@
       <hr>
-      
-      <p class="text-center">Copyright David coe All rights reserverd</p>
 
+      <p class="text-center">2017 David Coe</p>

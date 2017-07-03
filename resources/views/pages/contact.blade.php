@@ -7,6 +7,7 @@
       <div class="row">
         <div class="col-md-12">
           <h1>Contact Me</h1>
+          <h5>Please use the contact form or email me directly at coexx037@gmail.com</h5>
           <hr>
           <form action="{{ url('contact') }}" method="POST">
             {{ csrf_field() }}
@@ -22,7 +23,7 @@
 
             <div class="form-group">
               <label name="message">Message:</label>
-              <textarea id="message" name="message" class="form-control">Type your message here...</textarea>
+              <textarea id="message" name="message" class="form-control"></textarea>
             </div>
 
             <input type="submit" value="Send Message" class="btn btn-success">
