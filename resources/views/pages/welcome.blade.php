@@ -6,8 +6,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="jumbotron">
-            <h1>Welcome to My Blog!</h1>
-            <p class="lead">Thank you so much for visiting. This is my test website built with Laravel. Please read my popular post!</p>
+            <h1>Welcome to My Portfolio Blog!</h1>
+            <p class="lead">Thank you so much for visiting. This is my portfolio blog. Please see my projects below.</p>
           </div>
         </div>
       </div>
