@@ -10,6 +10,7 @@
         </div>
         <div class="col-md-10">
           <h1>About Me</h1>
+          <h5>David Coe - Web Developer</h5>
           <p>I am a self taught web developer with a passion for developing and improving my real world problem solving skills. I have a strong interest in full-stack web development and look forward to collaborating with a web development team. I am proficient in HTML, CSS, Bootstrap, Javascript, JQuery, PHP, Laravel, Node.js, MySQL and MongoDB.</p>
         </div>
       </div>
